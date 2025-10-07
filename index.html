@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SGE | IEE 6049 Ricardo Palma</title>
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/2602/2602414.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        :root {
+            --font-family: 'Poppins', sans-serif;
+            --chart-color-1: #3b82f6; /* blue-500 */
+            --chart-color-2: #10b981; /* emerald-500 */
+            --chart-color-3: #f59e0b; /* amber-500 */
+            --chart-color-4: #8b5cf6; /* violet-500 */
+            --chart-color-5: #ec4899; /* pink-500 */
+            --chart-color-6: #6366f1; /* indigo-500 */
+            --chart-text: #64748b; /* slate-500 */
+            --chart-grid: #e2e8f0; /* slate-200 */
+            --tooltip-bg: #ffffff;
+            --tooltip-border: #e2e8f0;
+            --tooltip-text: #1e293b;
+        }
+        html.dark {
+            --chart-text: #94a3b8; /* slate-400 */
+            --chart-grid: #334155; /* slate-700 */
+            --tooltip-bg: #1e293b; /* slate-800 */
+            --tooltip-border: #334155;
+            --tooltip-text: #f1f5f9;
+        }
+        body {
+            font-family: var(--font-family);
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        /* Custom scrollbar styles */
+        ::-webkit-scrollbar {
+            width: 8px;
+            height: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #f1f5f9;
+        }
+        html.dark ::-webkit-scrollbar-track {
+            background: #1e293b;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #cbd5e1;
+            border-radius: 10px;
+        }
+        html.dark ::-webkit-scrollbar-thumb {
+            background: #475569;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #94a3b8;
+        }
+        html.dark ::-webkit-scrollbar-thumb:hover {
+            background: #64748b;
+        }
+    </style>
+
+    <script type="importmap">
+{
+  "imports": {
+    "@/": "/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react-router-dom": "https://aistudiocdn.com/react-router-dom@^7.9.3",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.544.0",
+    "zustand": "https://aistudiocdn.com/zustand@^5.0.8",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.22",
+    "date-fns/": "https://aistudiocdn.com/date-fns@^4.1.0/",
+    "date-fns": "https://aistudiocdn.com/date-fns@^4.1.0",
+    "@zxing/library": "https://aistudiocdn.com/@zxing/library@^0.21.3",
+    "react-hot-toast": "https://aistudiocdn.com/react-hot-toast@^2.6.0",
+    "jspdf": "https://aistudiocdn.com/jspdf@^3.0.3",
+    "jspdf-autotable": "https://aistudiocdn.com/jspdf-autotable@^5.0.2"
+  }
+}
+</script>
+</head>
+<body class="bg-slate-50 dark:bg-slate-900">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "name": "copy-of-copy-of-copy-of-copy-of-copy-of-copy-of-copy-of-copy-of-copy-of-0510",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.3",
+    "lucide-react": "^0.544.0",
+    "zustand": "^5.0.8",
+    "framer-motion": "^12.23.22",
+    "date-fns": "^4.1.0",
+    "@zxing/library": "^0.21.3",
+    "react-hot-toast": "^2.6.0",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}
